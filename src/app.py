@@ -49,9 +49,9 @@ class MainApp(tk.Frame):
 
         ## Convertir en float
         try:
-            a = int(a)
-            b = int(b)
-            c = int(c)
+            a = float(a)
+            b = float(b)
+            c = float(c)
         except:
             messagebox.showerror('Error', 'Algo salió mal, inténtalo de nuevo')
             return
@@ -79,9 +79,9 @@ class MainApp(tk.Frame):
 
         ## Convertir en float
         try:
-            a = int(a)
-            b = int(b)
-            c = int(c)
+            a = float(a)
+            b = float(b)
+            c = float(c)
         except:
             messagebox.showerror('Error', 'Algo salió mal, inténtalo de nuevo')
             return
